@@ -1,0 +1,41 @@
+<resources>
+
+    <style name="Widget.AppWidget.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:background">?android:attr/colorBackground</item>
+    </style>
+
+    <style name="Widget.AppWidget.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+
+<!--untuk bagian widget-->
+    <style name="AppWidgetSection" parent="android:style/Widget">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="background">@android:color/white</item>
+    </style>
+
+<!--untuk label pada widget-->
+    <style name="AppWidgetLabel" parent="AppWidgetText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+<!--Untuk bagian text-->
+    <style name="AppWidgetText" parent="Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+<!--    untuk style bagian button -->
+    <style name="AppWidgetButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+</resources>
+
+
+
+

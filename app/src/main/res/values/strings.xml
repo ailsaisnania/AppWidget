@@ -1,0 +1,20 @@
+<resources>
+<!--    nama aplikasi -->
+    <string name="app_name">AppWidget</string>
+
+<!--    text yang akan muncul saat widget di klik (pada pratikum ini tidak digunkan)-->
+    <string name="appwidget_text">EXAMPLE</string>
+
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+
+
+<!--    Header untuk memberi keterangnan ID widget-->
+    <string name="widget_id_label">Widget ID</string>
+
+<!--    untuk kerterangan update panel-->
+    <string name="widget_update_label">Last updated</string>
+
+<!--    untuk text pada button -->
+    <string name="widget_button_update"> Update Now</string>
+</resources>
